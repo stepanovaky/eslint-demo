@@ -1,0 +1,1 @@
+const Deprecated = React.createClass({displayName: 'Hello'})
