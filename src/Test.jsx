@@ -1,13 +1,14 @@
+// @ts-nocheck
 
 async function Test() {
 
     const item = [''];
 
-   const itemList = item.map(i => await console.log(i)
+   const itemList = item.map(i => await console.log(i))
 
   return (
     <div>Test</div>
   );
 }
 
-default export Test;
+export default Test;
