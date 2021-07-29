@@ -1,9 +1,3 @@
-/* eslint-disable */
-
-// module.exports = {
-//   extends: "eslint:recommended"
-// };
-
 module.exports = {
 	env: {
 		browser: true,
@@ -19,10 +13,6 @@ module.exports = {
 	},
 	plugins: ['react'],
 	rules: {
-		// "react/react-in-jsx-scope": "off",
-		// 'require-jsdoc': 'off',
-		'linebreak-style': 'off',
-		indent: 'off',
-		'padded-blocks': 'off',
+		'react/react-in-jsx-scope': 'off',
 	},
 };
